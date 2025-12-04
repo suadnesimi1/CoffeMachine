@@ -1,5 +1,4 @@
-☕ Coffee Machine — README
-📌 Overview
+☕ Coffee Machine
 
 This project is a simple Coffee Machine simulator written in Java.
 The user inserts coins, selects a coffee type, chooses the sugar level, and finally receives the product.
@@ -20,9 +19,9 @@ Basic program flow control
 
 Insert coins
 
-The program asks the user to enter money.
+The program prompts the user to enter a monetary amount.
 
-If the amount is less than the minimum required, an error is shown and the user cannot continue.
+If the amount is less than the minimum required, an error message is displayed, and the user cannot proceed.
 
 If the coins are enough, the user proceeds to the next step.
 
@@ -40,19 +39,19 @@ This is also done using a switch statement.
 
 Combine both switches
 
-Because we have two choices (coffee + sugar), in more complex designs we could use a nested switch statement to handle all combinations.
+Because we have two choices (coffee + sugar), in more complex designs, we could use a nested switch statement to handle all combinations.
 
 For now, both inputs are processed separately and validated.
 
 Final output
 
 If all inputs are valid, the machine prints:
-"Please take your product"
+"Please take your product."
 
 🚀 Planned Improvement (Your Current Goal)
 
 In the final step, before printing “Please take your product”,
-you want to:
+You want to:
 
 ⏳ Add a 10-second delay
 
